@@ -1898,6 +1898,69 @@ input, select, textarea {
 				margin-left: 0;
 			}
 
+			#coolcenter{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.cool {
+				height: 60px;
+				width: 60px;
+				background-color:#FFF;
+				border-radius: 50px;
+				cursor: pointer;
+				box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+				float: left;
+				overflow: hidden;
+				transition: all 0.3s ease-in-out; 
+				}
+				
+				.cool span {
+				font-size: 20px;
+				font-weight: 500;
+				font-family: 'Poppins', sans-serif;
+				line-height: 60px;
+				margin-left: 10px;
+				}
+				
+				.cool:hover {
+				width: 200px;
+				}
+				
+				.cool:nth-child(1):hover .icon{ background: #4267B2;}
+				.cool:nth-child(2):hover .icon{ background: #E1306C;}
+				.cool:nth-child(3):hover .icon{ background: #FF0000;}
+				.cool:nth-child(4):hover .icon{ background: #3CE19D;}
+				.cool:nth-child(5):hover .icon{ background: #1DA1F2;}
+				
+				.cool:nth-child(1):hover span { color: #4267B2;}
+				.cool:nth-child(2):hover span { color: #E1306C;}
+				.cool:nth-child(3):hover span { color: #FF0000;}
+				.cool:nth-child(4):hover span { color: #3CE19D;}
+				.cool:nth-child(5):hover span { color: #1DA1F2;}
+				
+				.cool .icon {
+				display: inline-block;
+				height: 60px;
+				width: 60px;
+				text-align: center;
+				border-radius: 50px;
+				transition: all 0.3s ease-in-out;
+				}
+				
+				.cool .icon i {
+				font-size: 25px;
+				
+				line-height: 60px;
+				}
+				
+				.cool:hover i {
+				color: #FFF;
+				transition: all 0.3s ease-in-out;
+				}
+			  
+				
+			
 /* Form */
 
 	form .actions {
