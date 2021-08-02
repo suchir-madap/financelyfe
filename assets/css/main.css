@@ -2065,7 +2065,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		background: #fff;
+		background: #E6FFE7;
 		overflow-x: hidden;
 		padding: 6em 0 6em 0;
 	}
@@ -3068,3 +3068,10 @@ input, select, textarea {
 			}
 
 	}   
+	    
+	       .financeimg {
+			display: block;
+			width: 70%;
+			margin: 0 0 3em 0;
+			margin-left: 16%;
+		   }
