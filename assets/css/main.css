@@ -3121,8 +3121,13 @@ input, select, textarea {
         
 	    
 	    /* Join Us Section */
-		   .Joinus {
+		   .bold {
 			   font-weight: bold;
 		   }
 
-	    /* Roundtable img */
+	    /* Content Section */
+		   
+		   .instagram-media {
+			   margin-bottom: 10%;
+		   }
+		 
