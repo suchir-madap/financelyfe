@@ -3128,4 +3128,9 @@ input, select, textarea {
 			   font-weight: bold;
 		   }
 
-	    /* Roundtable img */
+	    /* Content Section */
+		   
+		   .instagram-media {
+			   margin-bottom: 10%;
+		   }
+		 
