@@ -2185,7 +2185,6 @@ input, select, textarea {
 	#footer-wrapper {
 		-webkit-transform: translate3d(0, 0, 0);
 		position: relative;
-		border-top: solid 1px #c2c7cc;
 		padding: 6em 0 6em 0;
 		background-image: url("images/overlay.png"), url("images/footer.svg");
 		background-size: 128px 128px,				100% 100%;
@@ -3185,3 +3184,10 @@ input, select, textarea {
   .button:hover {
 	background-color: #555;
   }
+		   #form { 
+			   width: 1900px;
+			}
+		 
+		   #form2 {
+               margin:auto;
+		   }
